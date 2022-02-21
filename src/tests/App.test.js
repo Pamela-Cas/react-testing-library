@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/react';
 import React from 'react';
 import userEvent from '@testing-library/user-event';
 import { MemoryRouter } from 'react-router-dom';
-import renderWithRouter from './renderWithRouter';
+import renderWithRouter from '../functionRenderWithRouter/renderWithRouter';
 import App from '../App';
 
 describe(
